@@ -8,7 +8,6 @@ import { GenreUseCasesModule } from "./use-cases/genre/genre-use-cases.module";
 import { CrmServicesModule } from "./services/crm-services/crm-services.module";
 import { envFilePath } from "src/utills/helper";
 
-console.log(envFilePath);
 @Module({
   imports: [
     ConfigModule.forRoot({
